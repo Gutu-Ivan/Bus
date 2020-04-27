@@ -1,0 +1,24 @@
+body{
+	background-color: white;
+	background-position: center;
+}
+#bus{
+	background-image: url('img/bus.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100px;
+	width:100px;
+	margin: 0;
+   	position: relative;  
+   	top: 0;    
+   	
+}
+#container{
+	display: block;
+	border: solid;
+	width: 1800px;
+	height: 900px;
+	background-image: url('img/road.png');
+  	margin: 0 auto;
+  	background-size: cover;
+}
