@@ -11,39 +11,39 @@ class Bus{
 	}
 
 	moveUp() {
-		console.log(`X = ${this.X} Y = ${this.Y}`);
-		this.elemBus.style.top=`${this.Y}px`
 		if (this.checkPosUp())
 			this.Y = 800
 		else
 			this.Y -= this.distance;
+		console.log(`X = ${this.X} Y = ${this.Y}`);
+		this.elemBus.style.top=`${this.Y}px`
 	}
 
 	moveDown() {
-		console.log(`X = ${this.X} Y = ${this.Y}`);
-		this.elemBus.style.top =`${this.Y}px`
 		if (this.checkPosDown())
 			this.Y = 0
 		else
 			this.Y += this.distance;
+		console.log(`X = ${this.X} Y = ${this.Y}`);
+		this.elemBus.style.top =`${this.Y}px`
 	}
 
 	moveLeft() {
-		console.log(`X = ${this.X} Y = ${this.Y}`);
-		this.elemBus.style.left =`${this.X}px`
 		if (this.checkPosLeft())
 			this.X = 1700;
 		else
 			this.X -= this.distance;;
+		console.log(`X = ${this.X} Y = ${this.Y}`);
+		this.elemBus.style.left =`${this.X}px`
 	}
 
 	moveRight() {
-		console.log(`X = ${this.X} Y = ${this.Y}`);
-		this.elemBus.style.left = `${this.X}px`
 		if (this.checkPosRight())
 			this.X = 0
 		else
-			this.X += this.distance;	
+			this.X += this.distance;
+		console.log(`X = ${this.X} Y = ${this.Y}`);
+		this.elemBus.style.left = `${this.X}px`	
 	}
 
 	stopEngine() {
